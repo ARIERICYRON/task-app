@@ -1,5 +1,5 @@
 import { BellFilled, MailOutlined } from '@ant-design/icons'
-import { Image, Space, Typography } from 'antd'
+import { Badge, Image, Space, Typography } from 'antd'
 import React from 'react'
 
 export default function Header() {
@@ -9,9 +9,12 @@ export default function Header() {
         </Image>
         <Typography.Title>Task Management DashBoard</Typography.Title>
         <Space>
-           <MailOutlined />
-           <BellFilled />
-
+            <Badge count={10} dot>
+           <MailOutlined style={{fontSize: 24}}/>
+           </Badge>
+           <Badge count={20}>
+           <BellFilled style={{fontSize: 24}}/>
+           </Badge>
         </Space>
     </div>
   )
