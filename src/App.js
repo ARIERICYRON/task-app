@@ -9,10 +9,10 @@ export default function App() {
   return (
     <div className='App'>
       <Header />
-      <Space>
-        <SideBar />
-        <Page />
-      </Space>
+      <Space className='SideMenuAndPageContent'>
+        <SideBar></SideBar>
+        <Page></Page>
+        </Space>
       <Footer />
     </div>
   )
