@@ -1,7 +1,10 @@
+import { Typography } from 'antd'
 import React from 'react'
 
 export default function Report() {
   return (
-    <div>Report</div>
+    <div>
+        <Typography.Text>Report</Typography.Text>
+    </div>
   )
 }

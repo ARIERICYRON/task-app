@@ -1,7 +1,10 @@
+import { Typography } from 'antd'
 import React from 'react'
 
 export default function GoalTimeline() {
   return (
-    <div>GoalTimeline</div>
+    <div>
+        <Typography.Text>Goal Timeline</Typography.Text>
+    </div>
   )
 }

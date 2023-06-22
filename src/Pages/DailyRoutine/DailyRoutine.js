@@ -1,7 +1,11 @@
+
+import { Typography } from 'antd'
 import React from 'react'
 
 export default function DailyRoutine() {
   return (
-    <div>DailyRoutine</div>
+    <div>
+        <Typography.Text>Daily Routine</Typography.Text>
+    </div>
   )
 }
